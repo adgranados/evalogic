@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head></head>
+<body>
+
+<div data-role="page" id="Resultados">
+  <div data-role="header" style="text-align:right;">
+    <h1>Encuesta</h1>
+    <a href="#defaultpanel" data-role="button" data-inline="true" data-icon="bars" data-iconpos="notext"></a>
+  </div>
+    <div data-role="content">
+
+      <h1 style="text-align:center;">Evalogic - Resultados</h1>
+      <br/>
+        <div>
+        <ul data-role="listview">
+          <li data-theme="b">Comprensibilidad <span class="ui-li-count" id="Comprensibilidad_resp"></span></li>
+          <li data-theme="b">Confiabilidad y Eficiencia  <span class="ui-li-count" id="Confiabilidad_Eficiencia_resp"></span></li>
+          <li data-theme="b">Usabilidad y Operatividad <span class="ui-li-count" id="Usabilidad_Operabilidad_resp"></span></li>
+          <li data-theme="b">Portabilidad <span class="ui-li-count" id="Portabilidad_resp"></span></li>
+        </ul>
+              <p style="border:2px red solid; background-color:rgba(255,100,50,0.8); border-radius:10px; margin:20px, padding:10px;font-size:30px;text-align:center">
+                Según su criterio esta app es: <span style="font-size:45px;text-decoration:bold" id="app_resp"></span>
+              <p>
+        </div>
+
+    </div>
+    <div data-role="footer">
+      <h2>Universidad el Bosque - Logica Difusa - 2013</h2>
+    </div>
+
+             <!-- defaultpanel  -->
+            <div data-role="panel" id="defaultpanel" data-theme="e">
+ 
+                <!-- div class="panel-content" -->
+                <ul data-role="listview">
+                    <li data-icon="home" ><a href="index.html">Inicio</a></li>
+                    <li data-theme="b"><a href="Comprensibilidad.html" >Reiniciar</a></li>
+                    <li data-theme="d" data-icon="info"><a href="acercade.html">Acerca de</a></li>  
+                    <li data-icon="delete" data-theme="e">
+                        <a href="#demo-links" data-rel="close" data-theme="c" data-icon="delete" data-inline="true">Cerrar Panel</a>
+                    </li>
+                </ul> 
+
+            </div><!-- /defaultpanel -->
+
+
+</body>
+</html>
